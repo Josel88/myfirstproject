@@ -1,0 +1,128 @@
+body{
+   background-color: #000000;
+   padding: 0px;
+   margin: 0px;
+ }
+
+#gradient
+{
+  width: 100%;
+  height: 750px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#enojon{
+  position:relative;
+  top: 150px;
+  left: 230px; 
+  
+}
+
+.contenedor{
+  position:relative;
+  bottom:400px;
+  margin:auto;
+  left: 30px;
+  color: white;
+  font-size: 95px;
+  line-height: 1em;
+  
+  
+  
+}
+
+#diseñador{
+  font-size: 130px;
+  background-image: linear-gradient(179deg,rgb(254, 97, 158) 0%, rgb(254, 97, 158) 5%,transparent 54%, transparent 100%);
+  background-size: 0.5% 70%;
+  background-position: 100% 100%;
+  }
+
+#interactivo{
+  font-size: 100px;
+}
+
+#apasionado{
+  font-size: 75px;
+  
+}
+
+#por{
+  font-size:66px;
+ 
+}
+
+#wireframes{
+  font-size:120px;
+  background-image: linear-gradient(179deg,rgb(53, 234, 94) 0%, rgb(53, 234, 94) 5%,transparent 54%, transparent 100%);
+  background-size: 0.5% 70%;
+  background-position: 100% 100%;
+  
+}
+
+#preposicion{
+  font-size: 66px;
+}
+
+#codigo{
+  font-size:100px;
+  background-image: linear-gradient(179deg,rgb(138, 25, 227) 0%, rgb(138, 25, 227) 5%,transparent 54%, transparent 100%);
+  background-size: 100% 70%;
+  background-position: 100% 100%;
+}
+
+#linkedin{
+  font-size:20px;
+  margin-left:690px;
+  font-family:monospace;
+  position:relative;
+  bottom:200px;
+  }
+
+#behance{
+  font-size:20px;
+  font-family:monospace;
+  margin-left:570px;
+  position:relative;
+  bottom:78px;
+}
+
+@keyframes noise{
+  0%{background-position:1000px;}
+}
+
+.glitch-text, button{
+font-family: monospace;
+font-weight:bold;
+}
+
+.glitch-text{
+position:relative;
+z-index:2;
+opacity:.9;
+margin-left:370px;
+bottom:80px;
+text-shadow:0px 0px 3px white;
+animation:glitch 3s infinite;
+font-size:18px;
+color:white;
+}
+
+@keyframes glitch{
+3%{text-shadow:7px 7px 0px red;}
+6%{text-shadow:-9px 4px 0px blue;transform:translate(4px,-10px) skewX(3240deg);}
+7%{text-shadow:3px -4px 0px green;}
+9%{text-shadow:0px 0px 3px white;transform:translate(0px,0px) skewX(0deg);}
+2% , 54%{transform:translateX(0px) skew(0deg);}
+55%{transform:translate(-2px,6px) skew(-5530deg);}
+56%{text-shadow:0px 0px 3px white;transform:translate(0px,0px) skew(0deg);}
+57%{text-shadow:7px 7px 0px red;transform:translate(4px,-10px) skew(-70deg);}
+58%{text-shadow:0px 0px 3px white;transform:translate(0px,0px) skew(0deg);}
+62%{text-shadow:3px -4px 0px green;transform:translate(0px,20px) skew(0deg);}
+63%{text-shadow:0px 0px 3px white;transform:translate(4px,-2px) skew(0deg);}
+64%{transform:translate(1px,3px); skew(-230deg);}
+65%{transform:translate(-7px,2px); skew(120deg);}
+66%{transform:translate(0px,0px) skew(0deg);}
+}
+
